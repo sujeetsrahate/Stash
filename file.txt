@@ -1,1 +1,42 @@
-Hello UST
+ history
+    1  ls
+    2  cd devops
+    3  cd git
+    4  cd ..
+    5  cd
+    6  mkdir Stash
+    7  cd Stash
+    8  git init
+    9  echo "hii" >> file.txt
+   10  git add .
+   11  git commit -m "hi added"
+   12  git remote add origin git@github.com:sujeetsrahate/Stash.git
+   13  git push -u origin master
+   14  echo "welcome" > file.txt
+   15  git pull
+   16  git stash save "first stash"
+   17  git status
+   18  cat file.txt
+   19  git pull
+   20  git stash list
+   21  git stash apply
+   22  cat file.txt
+   23  git add .
+   24  git commit -m "change done"
+   25  git status
+   26  git push
+   27  git stash list
+   28  git stash pop
+   29  git stash list
+   30  git stash drop stash@{0}
+   31  git stash list
+   32  cat file.txt
+   33  git stash list
+   34  git stash save "second change"
+   35  git add .
+   36  git stash save "2nd change"
+   37  git stash list
+   38  git stash show stash@{0}
+   39  git stash show -p stash@{0}
+   40  history
+
